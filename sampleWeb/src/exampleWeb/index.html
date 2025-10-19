@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootratp use: npm install bootstrap@5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Example :: DD FORM 3024 Annual Periodic Health Assessment </title>
+    
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">DD FORM 3024 Annual Periodic Health Assessment (Sample)</span>
+      </div>
+    </nav>
+    <div class="card" style="width: 75rem;">
+      <p>This page is a sampling of questions from the DD FORM 3024 Annual Periodic Health Assessment for demonstration of Model-Based-Testing using FSM-Base test case generation Test Cases.</p>
+      <p>This page will be targted by the Microsoft PlayWright Test Suite includedin this Repository.</p>
+      <p><a class="link" src="https://www.esd.whs.mil/Portals/54/Documents/DD/forms/dd/dd3024.pdf">Click here for  the full official DD FORM 3024 PDF</a></p>
+    </div>
+    <div class="card" style="width: 75rems;">
+      <form class="row g-3">
+        <div class="col-md-5">
+          <label for="txtLastName" class="form-label">1. Last Name:</label>
+          <input type="text" class="'form-control" id="txtLastName" targetDbField="LastName">
+        </div>
+        <div class="col-md-4">
+          <label for="txtFirstName" class="form-label">2. First Name:</label>
+          <input type="text" class="'form-control" id="txtFirstName" targetDbField="FirstName">
+        </div>
+        <div class="col-md-3">
+          <label for="txtMName" class="form-label">3. Middle Initial:</label>
+          <input type="text" class="'form-control" id="txtMName" targetDbField="MiddleInitial">
+        </div>
+        <div class="col-md-5">
+          <label for="txtToday" class="form-label">4. Today's Date:</label>
+          <input type="date" class="form-control" id="txtToday" targetDbField="Today">
+        </div>
+        <div class="col-md-4">
+          <label for="txtDoB" class="form-label">5. Date of Birthy:</label>
+          <input type="date" class="form-control" id="txtDoB" targetDbField="DoB">
+        </div>
+        <div class="col-md-3">
+          <label for="txtAge" class="form-label">6. Age:</label>
+          <input type="text" class="'form-control" id="txtAge" targetDbField="Age">
+        </div>
+        <div class="col-md-5">
+          <label class="form-label">7. Sex:</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Sex" id="sexMale" targetDbField="Gender">
+            <label class="form-check-label" for="sexMale">
+              Male
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Ex" id="sexFemale" targetDbField="Gender">
+            <label class="form-check-label" for="sexFemale">
+              Female
+            </label>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <label class="form-check-label">8. Provide your 10-digit DODID number located on the back of your CAC.</label>
+          <label class="form-contorl">1234567890</label>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
